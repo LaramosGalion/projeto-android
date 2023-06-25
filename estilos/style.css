@@ -43,11 +43,11 @@ header{
     display: block;
     font-family: var(--fonte-destaque);
     background-image:linear-gradient(to bottom, var(--cor3),var(--cor5) 90%);
-    height: 150px;
+    min-height: 150px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     text-shadow: 2px 2px 1px #00000080;
-    padding-bottom: 3em;
+    
 }   
 
 header > h1{
@@ -63,9 +63,9 @@ header > p{
     color:white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 20px 10px;
     
 } 
 
